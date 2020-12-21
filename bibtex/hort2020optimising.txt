@@ -1,0 +1,7 @@
+@inproceedings{hort2020optimising,
+  title={Optimising word embeddings with search-based approaches},
+  author={Hort, Max and Sarro, Federica},
+  booktitle={Proceedings of the 2020 Genetic and Evolutionary Computation Conference Companion},
+  pages={269--270},
+  year={2020}
+}
