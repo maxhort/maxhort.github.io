@@ -1,0 +1,6 @@
+@article{hort2022bias,
+  title={Bia mitigation for machine learning classifiers: A comprehensive survey},
+  author={Hort, Max and Chen, Zhenpeng and Zhang, Jie M and Sarro, Federica and Harman, Mark},
+  journal={arXiv preprint arXiv:2207.07068},
+  year={2022}
+}

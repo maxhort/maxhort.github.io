@@ -1,0 +1,6 @@
+@article{ma2022enhanced,
+  title={Enhanced Fairness Testing via Generating Effective Initial Individual Discriminatory Instances},
+  author={Ma, Minghua and Tian, Zhao and Hort, Max and Sarro, Federica and Zhang, Hongyu and Lin, Qingwei and Zhang, Dongmei},
+  journal={arXiv preprint arXiv:2209.08321},
+  year={2022}
+}
