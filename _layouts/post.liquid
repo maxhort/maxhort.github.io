@@ -60,17 +60,9 @@ layout: default
 
   <article class="post-content">
     {% if page.toc and page.toc.beginning %}
-      <nav id="table-of-contents">
-        <ul>
-          {% assign headers = content | split: '<h2' %}
-          {% for h in headers offset:1 %}
-            {% assign title = h | split: '</h2>' | first | split: '>' | last %}
-            <li>
-              <a href="#{{ title | slugify }}">{{ title }}</a>
-            </li>
-          {% endfor %}
-        </ul>
-      </nav>
+      <div id="table-of-contents">
+        {% toc %}
+      </div>
       <hr>
     {% endif %}
     <div id="markdown-content">
