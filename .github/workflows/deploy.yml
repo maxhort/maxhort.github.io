@@ -103,3 +103,5 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           folder: _site
+          target_branch: gh-pages   
+          keep_files: false  
