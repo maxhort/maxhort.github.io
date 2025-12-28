@@ -1,6 +1,0 @@
-@article{chen2022fairness,
-  title={Fairness Testing: A Comprehensive Survey and Analysis of Trends},
-  author={Chen, Zhenpeng and Zhang, Jie M and Hort, Max and Sarro, Federica and Harman, Mark},
-  journal={arXiv preprint arXiv:2207.10223},
-  year={2022}
-}

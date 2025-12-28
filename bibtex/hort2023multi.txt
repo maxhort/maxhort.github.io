@@ -1,9 +1,0 @@
-@article{hort2023multi,
-  title={Multi-objective search for gender-fair and semantically correct word embeddings},
-  author={Hort, Max and Moussa, Rebecca and Sarro, Federica},
-  journal={Applied Soft Computing},
-  volume={133},
-  pages={109916},
-  year={2023},
-  publisher={Elsevier}
-}

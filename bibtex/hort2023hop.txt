@@ -1,6 +1,0 @@
-@inproceedings{hort2023hop,
-  title={Multi-objective search for gender-fair and semantically correct word embeddings (HOP GECCO'23)},
-  author={Hort, Max and Moussa, Rebecca and Sarro, Federica},
-  booktitle={Procs. of the 2023 Genetic and Evolutionary Computation Conference Companion},
-  year={2023}
-}

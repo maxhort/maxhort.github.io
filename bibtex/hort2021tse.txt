@@ -1,8 +1,0 @@
-@article{hort21tse,
-			author = {Hort, Max and Kechagia, Maria, and Sarro, Federica and Harman, Mark},
-			title = {A Survey of Performance Optimization
-			for Mobile Applications},
-			journal   = {IEEE Transactions on Software Engineering (TSE)},
-			publisher = {IEEE},
-			year = {2021},
-		}

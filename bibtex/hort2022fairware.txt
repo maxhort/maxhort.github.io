@@ -1,8 +1,0 @@
-@inproceedings{hort2022fairware,
-  title={Privileged and Unprivileged Groups: An Empirical Study on the
-Impact of the Age Attribute on Fairness},
-  author={Hort, Max and Sarro, Federica},
-  booktitle={International Workshop on Equitable Data and Technology (FairWare ’22)},
-  year={2022},
-  organization={ACM}
-}

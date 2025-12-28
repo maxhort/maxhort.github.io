@@ -1,6 +1,0 @@
-@inproceedings{zhong2022py2cy,
-title={Py2Cy: A Genetic Improvement Tool To Speed Up Python},
-author={Zhong, James and Hort, Max and Sarro, Federica},
-booktitle={Genetic and Evolutionary Computation Conference Companion (GECCO ’22 Companion)},
-year={2022}
-}

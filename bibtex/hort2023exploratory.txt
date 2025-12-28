@@ -1,6 +1,0 @@
-@inproceedings{hort2023exploratory,
-  title={An Exploratory Literature Study on Sharing and Energy Use of Language Models for Source Code},
-  author ={Max Hort, Grishina, Anastasiia,  and Leon Moonen},
-  booktitle={Proceedings of the International Symposium on Empirical Software Engineering and Measurement},
-  year={2023}
-}

@@ -1,6 +1,0 @@
-@inproceedings{sesari2022empirical,
-title={An Empirical Study on the Fairness of Pre-trained Word Embeddings},
-author={Sesari, Emeralda and Hort, Max and Sarro, Federica},
-booktitle={Proceedings of the 4th Workshop on Gender Bias in Natural Language Processing},
-year={2022}
-}

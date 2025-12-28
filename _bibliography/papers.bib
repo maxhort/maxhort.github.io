@@ -1,0 +1,476 @@
+---
+---
+@article{10.1145/3737697,
+abbr={TOSEM},
+author = {Tian, Zhao and Ma, Minghua and Hort, Max and Sarro, Federica and Zhang, Hongyu and Chen, Junjie},
+title = {Enhanced Fairness Testing via Generating Effective Initial Individual Discriminatory Instances},
+year = {2025},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+issn = {1049-331X},
+url = {https://doi.org/10.1145/3737697},
+doi = {10.1145/3737697},
+abstract = {Fairness testing aims at mitigating unintended discrimination in the decision-making process of data-driven AI systems. Individual discrimination may occur when an AI model makes different decisions for two distinct individuals who are distinguishable solely according to protected attributes, such as age and race. Such instances reveal biased AI behaviour, and are called Individual Discriminatory Instances (IDIs).In this paper, we propose an approach for the selection of the initial seeds to generate IDIs for fairness testing. Previous studies mainly used random initial seeds to this end. However this phase is crucial, as these seeds are the basis of the follow-up IDIs generation. We dubbed our proposed seed selection approach I&D. It generates a large number of initial IDIs exhibiting a great diversity, aiming at improving the overall performance of fairness testing.Our empirical study reveals that I&D is able to produce a larger number of IDIs with respect to four state-of-the-art IDI generation approaches, generating 1.86X more IDIs on average. When using the IDIs generated with I&D for retraining a machine learning model, the percentage of IDIs in the input space (mathbb{I})  is decreased by 24.9\% on average, implying that I&D is effective for improving the model’s fairness.},
+note = {Just Accepted},
+journal = {ACM Trans. Softw. Eng. Methodol.},
+month = jun,
+keywords = {Fairness Testing, Machine Learning Models, Software Fairness}
+}
+@unpublished{hort:hal-05341748,
+  abbr={preprint},
+  TITLE = {{Large Language Models: A Survey of Surveys}},
+  AUTHOR = {Hort, Max and Vallecillos-Ruiz, Fernando and Moonen, Leon},
+  URL = {https://hal.science/hal-05341748},
+  NOTE = {working paper or preprint},
+  YEAR = {2025},
+  MONTH = Nov,
+  KEYWORDS = {Literature survey ; Tertiary study ; Large language models},
+  PDF = {https://hal.science/hal-05341748v1/file/HAL-LLM-Survey-Survey.pdf},
+  HAL_ID = {hal-05341748},
+  HAL_VERSION = {v1},
+}
+
+@misc{williams2025empiricalsustainabilityaspectssoftware,
+      abbr={preprint},
+      title={Empirical and Sustainability Aspects of Software Engineering Research in the Era of Large Language Models: A Reflection}, 
+      author={David Williams and Max Hort and Maria Kechagia and Aldeida Aleti and Justyna Petke and Federica Sarro},
+      year={2025},
+      eprint={2510.26538},
+      archivePrefix={arXiv},
+      primaryClass={cs.SE},
+      url={https://arxiv.org/abs/2510.26538}, 
+}
+@misc{vallecillosruiz2025wisdomdelusionllmensembles,
+      abbr={preprint},
+      title={Wisdom and Delusion of LLM Ensembles for Code Generation and Repair}, 
+      author={Fernando Vallecillos-Ruiz and Max Hort and Leon Moonen},
+      year={2025},
+      eprint={2510.21513},
+      archivePrefix={arXiv},
+      primaryClass={cs.SE},
+      url={https://arxiv.org/abs/2510.21513}, 
+}
+
+@article{MEINSON2026107900,
+abbr={IST},
+title = {FairST: A novel approach for machine learning bias repair through latent sensitive attribute translation},
+journal = {Information and Software Technology},
+volume = {189},
+pages = {107900},
+year = {2026},
+issn = {0950-5849},
+doi = {https://doi.org/10.1016/j.infsof.2025.107900},
+url = {https://www.sciencedirect.com/science/article/pii/S0950584925002393},
+author = {Carmen Meinson and Max Hort and Federica Sarro},
+keywords = {Software fairness, Machine learning, Autoencoder, Bias mitigation},
+abstract = {Context:
+As Machine Learning (ML) models are increasingly used in critical decision-making software, concerns have been raised about these systems perpetuating or exacerbating existing historical biases. Consequently, there has been a growing research interest in developing methods to test for fairness and repair biases in ML software, particularly for legally protected attributes like gender, age, race.
+Objectives:
+In this work, we set out to repair bias for both single and multiple protected attributes (a.k.a. intersectional fairness) of pre-trained machine learning models.
+Methods:
+We propose a novel model- and task-agnostic debiasing method, Fair Subgroup Translation (FairST), based on fair representation learning via auto-encoders. To the best of our knowledge, this is the first approach based on the principle of Fair Representation Learning devised for post-processing bias repair.
+Results:
+We empirically evaluate the effectiveness of using FairST to repair a pre-trained Neural Network model used for seven classification tasks involving both single and multiple protected attributes, and benchmark its performance with state-of-the-art fairness repair methods (i.e., Learning Fair Representations, Reweighing, FairBalance and FairMask). We also investigate if the effectiveness of FairST varies when using it to repair bias of other popular ML models (namely Logistic Regression, Support Vector Machine, Gaussian Naive Bayes, Decision Tree and Random Forest).
+Conclusion:
+The results demonstrate that FairST consistently achieves superior single and intersectional fairness with respect to all benchmarking methods for all classification tasks considered in our empirical study. This supports the potential of using FairST for ML bias repair, and opens up a rich agenda of future work including its application to repair bias arising in tasks of a different nature such as multi-class or image-based problems.}
+}
+
+
+@misc{macháček2025impactfinetuninglargelanguage,
+      abbr={preprint},
+      title={The Impact of Fine-tuning Large Language Models on Automated Program Repair}, 
+      author={Roman Macháček and Anastasiia Grishina and Max Hort and Leon Moonen},
+      year={2025},
+      eprint={2507.19909},
+      archivePrefix={arXiv},
+      primaryClass={cs.SE},
+      url={https://arxiv.org/abs/2507.19909}, 
+}
+
+@inproceedings{10.1145/3756681.3756966,
+abbr={EASE},
+author = {Vallecillos Ruiz, Fernando and Hort, Max and Moonen, Leon},
+title = {The Art of Repair: Optimizing Iterative Program Repair with Instruction-Tuned Models},
+year = {2025},
+isbn = {9798400713859},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3756681.3756966},
+doi = {10.1145/3756681.3756966},
+abstract = {Automatic program repair (APR) aims at reducing the manual efforts required to identify and fix errors in source code. Before the rise of Large Language Model (LLM)-based agents, a common strategy was simply to increase the number of generated patches, sometimes to the thousands, which usually yielded better repair results on benchmarks. More recently, self-iterative capabilities enabled LLMs to refine patches over multiple rounds guided by feedback. However, literature often focuses on many iterations and disregards different numbers of outputs.We investigate an APR pipeline that balances these two approaches, the generation of multiple outputs and multiple rounds of iteration, while imposing a limit of 10 total patches per bug. We apply three SOTA instruction-tuned LLMs – DeepSeekCoder-Instruct, Codellama-Instruct, Llama3.1-Instruct – to the APR task. We further fine-tune each model on an APR dataset with three sizes (1K, 30K, 65K) and two techniques (Full Fine-Tuning and LoRA), allowing us to assess their repair capabilities on two APR benchmarks: HumanEval-Java and Defects4J.Our results show that by using only a fraction (<1\%) of the fine-tuning dataset, we can achieve improvements of up to 78\% in the number of plausible patches generated, challenging prior studies that reported limited gains using Full Fine-Tuning. However, we find that exceeding certain thresholds leads to diminishing outcomes, likely due to overfitting. Moreover, we show that base models greatly benefit from creating patches in an iterative fashion rather than generating them all at once. In addition, the benefit of iterative strategies becomes more pronounced in complex benchmarks. Even fine-tuned models, while benefiting less from iterations, still gain advantages, particularly on complex benchmarks. The research underscores the need for balanced APR strategies that combine multi-output generation and iterative refinement.},
+booktitle = {Proceedings of the 29th International Conference on Evaluation and Assessment in Software Engineering},
+pages = {500–511},
+numpages = {12},
+keywords = {Automated Program Repair, Software Testing, Software Maintenance, Large Language Models},
+location = {
+},
+series = {EASE '25}
+}
+
+@INPROCEEDINGS{10962512,
+  abbr={ICST},
+  author={Hort, Max and Vidziunas, Linas and Moonen, Leon},
+  booktitle={2025 IEEE International Conference on Software Testing, Verification and Validation Workshops (ICSTW)}, 
+  title={Semantic-Preserving Transformations as Mutation Operators: A Study on Their Effectiveness in Defect Detection}, 
+  year={2025},
+  volume={},
+  number={},
+  pages={337-346},
+  keywords={Software testing;Computer languages;Codes;Accuracy;Source coding;Semantics;Training data;Predictive models;Robustness;Defect detection;defect detection;language model;semantic-preserving transformation;ensemble},
+  doi={10.1109/ICSTW64639.2025.10962512}}
+
+@INPROCEEDINGS{10988963,
+  abbr={ICST},
+  author={Hort, Max and Moonen, Leon},
+  booktitle={2025 IEEE Conference on Software Testing, Verification and Validation (ICST)}, 
+  title={Codehacks: A Dataset of Adversarial Tests for Competitive Programming Problems Obtained from Codeforces}, 
+  year={2025},
+  volume={},
+  number={},
+  pages={742-746},
+  keywords={Software testing;Computer languages;Computer hacking;Source coding;Large language models;Natural languages;Computer bugs;Programming;Software;Software reliability;competitive programming;language model;dataset},
+  doi={10.1109/ICST62969.2025.10988963}}
+
+
+@article{10.1145/3771922,
+abbr={TOSEM},
+selected={true},
+author = {Vallecillos Ruiz, Fernando and Grishina, Anastasiia and Hort, Max and Moonen, Leon},
+title = {Assessing the Latent Automated Program Repair Capabilities of Large Language Models using Round-Trip Translation},
+year = {2025},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+issn = {1049-331X},
+url = {https://doi.org/10.1145/3771922},
+doi = {10.1145/3771922},
+abstract = {Research shows that errors in natural language can be corrected by translating texts to another language and back using language models. We explore to what extent this latent correction capability extends to Automated Program Repair (APR) by investigating Round-Trip Translation (RTT): translating code from one programming language into another programming or natural language and back, using Large Language Models (LLMs). We hypothesize that RTT restores patterns most commonly seen in the LLM’s training corpora through regression toward the mean, replacing infrequent bugs with more frequent, natural, bug-free code. To test this hypothesis, we employ nine LLMs and four common APR benchmarks in Java, and perform a detailed quantitative and qualitative analysis of RTT-generated patches. We find that RTT through English generates plausible patches for 100 of 164 bugs with GPT-4 on the HumanEval-Java benchmark, and 97 are found to be correct in our manual assessment. Moreover, RTT uniquely generates plausible patches for 46 bugs that were missed by LLMs specifically fine-tuned for APR. While this demonstrates the viability of RTT for APR, we also observe limitations, such as a lower overall bug fix rate than the state-of-the-art and diluting the original coding style. We analyze the impact of these limitations and discuss the potential of using RTT as a complementary component in APR frameworks.},
+note = {Just Accepted},
+journal = {ACM Trans. Softw. Eng. Methodol.},
+month = oct,
+keywords = {automated program repair, large language model, machine translation}
+}
+
+
+@inproceedings{10.1145/3674805.3686684,
+abbr={ESEM},
+author = {Astekin, Merve and Hort, Max and Moonen, Leon},
+title = {A Comparative Study on Large Language Models for Log Parsing},
+year = {2024},
+isbn = {9798400710476},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3674805.3686684},
+doi = {10.1145/3674805.3686684},
+abstract = {Background: Log messages provide valuable information about the status of software systems. This information is provided in an unstructured fashion and automated approaches are applied to extract relevant parameters. To ease this process, log parsing can be applied, which transforms log messages into structured log templates. Recent advances in language models have led to several studies that apply ChatGPT to the task of log parsing with promising results. However, the performance of other state-of-the-art large language models (LLMs) on the log parsing task remains unclear. Aims: In this study, we investigate the current capability of state-of-the-art LLMs to perform log parsing. Method: We select six recent LLMs, including both paid proprietary (GPT-3.5, Claude 2.1) and four free-to-use open models, and compare their performance on system logs obtained from a selection of mature open-source projects. We design two different prompting approaches and apply the LLMs on 1,354 log templates across 16 different projects. We evaluate their effectiveness, in the number of correctly identified templates, and the syntactic similarity between the generated templates and the ground truth. Results: We found that free-to-use models are able to compete with paid models, with CodeLlama extracting 10\% more log templates correctly than GPT-3.5. Moreover, we provide qualitative insights into how usable these six models are for log parsing. Conclusions: Our results reveal that some of the smaller, free-to-use LLMs can considerably assist log parsing compared to their paid proprietary competitors, especially code-specialized models.},
+booktitle = {Proceedings of the 18th ACM/IEEE International Symposium on Empirical Software Engineering and Measurement},
+pages = {234–244},
+numpages = {11},
+keywords = {large language models, log analysis, log parsing},
+location = {Barcelona, Spain},
+series = {ESEM '24}
+}
+
+
+@article{10.1145/3631326,
+abbr={JRC},
+author = {Hort, Max and Chen, Zhenpeng and Zhang, Jie M. and Harman, Mark and Sarro, Federica},
+selected={true},
+title = {Bias Mitigation for Machine Learning Classifiers: A Comprehensive Survey},
+year = {2024},
+issue_date = {June 2024},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+volume = {1},
+number = {2},
+url = {https://doi.org/10.1145/3631326},
+doi = {10.1145/3631326},
+abstract = {This article provides a comprehensive survey of bias mitigation methods for achieving fairness in Machine Learning (ML) models. We collect a total of 341 publications concerning bias mitigation for ML classifiers. These methods can be distinguished based on their intervention procedure (i.e., pre-processing, in-processing, post-processing) and the technique they apply. We investigate how existing bias mitigation methods are evaluated in the literature. In particular, we consider datasets, metrics, and benchmarking. Based on the gathered insights (e.g., What is the most popular fairness metric? How many datasets are used for evaluating bias mitigation methods?), we hope to support practitioners in making informed choices when developing and evaluating new bias mitigation methods.},
+journal = {ACM J. Responsib. Comput.},
+month = jun,
+articleno = {11},
+numpages = {52},
+keywords = {Fairness, bias mitigation, debiasing, fairness-aware machine learning, classification}
+}
+
+
+@inproceedings{10.1145/3643661.3643952,
+abbr={InteNSE},
+author = {Astekin, Merve and Hort, Max and Moonen, Leon},
+title = {An Exploratory Study on How Non-Determinism in Large Language Models Affects Log Parsing},
+year = {2024},
+isbn = {9798400705649},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3643661.3643952},
+doi = {10.1145/3643661.3643952},
+abstract = {Most software systems used in production generate system logs that provide a rich source of information about the status and execution behavior of the system. These logs are commonly used to ensure the reliability and maintainability of software systems. The first step toward automated log analysis is generally log parsing, which aims to transform unstructured log messages into structured log templates and extract the corresponding parameters.Recently, Large Language Models (LLMs) such as ChatGPT have shown promising results on a wide range of software engineering tasks, including log parsing. However, the extent to which non-determinism influences log parsing using LLMs remains unclear. In particular, it is important to investigate whether LLMs behave consistently when faced with the same log message multiple times.In this study, we investigate the impact of non-determinism in state-of-the-art LLMs while performing log parsing. Specifically, we select six LLMs, including both paid proprietary and free-to-use models, and evaluate their non-determinism on 16 system logs obtained from a selection of mature open-source projects. The results of our study reveal varying degrees of non-determinism among models. Moreover, they show that there is no guarantee for deterministic results even with a temperature of zero.},
+booktitle = {Proceedings of the ACM/IEEE 2nd International Workshop on Interpretability, Robustness, and Benchmarking in Neural Software Engineering},
+pages = {13–18},
+numpages = {6},
+keywords = {log parsing, large language model, robustness, non-determinism, consistency},
+location = {Lisbon, Portugal},
+series = {InteNSE '24}
+}
+
+
+@article{10.1145/3652155,
+abbr={TOSEM},
+author = {Chen, Zhenpeng and Zhang, Jie M. and Hort, Max and Harman, Mark and Sarro, Federica},
+title = {Fairness Testing: A Comprehensive Survey and Analysis of Trends},
+year = {2024},
+issue_date = {June 2024},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+volume = {33},
+number = {5},
+issn = {1049-331X},
+url = {https://doi.org/10.1145/3652155},
+doi = {10.1145/3652155},
+abstract = {Unfair behaviors of Machine Learning (ML) software have garnered increasing attention and concern among software engineers. To tackle this issue, extensive research has been dedicated to conducting fairness testing of ML software, and this article offers a comprehensive survey of existing studies in this field. We collect 100 papers and organize them based on the testing workflow (i.e., how to test) and testing components (i.e., what to test). Furthermore, we analyze the research focus, trends, and promising directions in the realm of fairness testing. We also identify widely adopted datasets and open-source tools for fairness testing.},
+journal = {ACM Trans. Softw. Eng. Methodol.},
+month = jun,
+articleno = {137},
+numpages = {59},
+keywords = {Machine learning, fairness testing, survey, analysis, trends}
+}
+
+
+
+@article{hort2024search,
+  abbr={EMSE},
+  title={Search-based automatic repair for fairness and accuracy in decision-making software},
+  author={Hort, Max and Zhang, Jie M and Sarro, Federica and Harman, Mark},
+  journal={Empirical Software Engineering},
+  volume={29},
+  number={1},
+  pages={36},
+  year={2024},
+  publisher={Springer}
+}
+@inproceedings{10.1145/3611643.3616304,
+abbr={FSE},
+pdf={grishina2023earlybird.pdf},
+selected={true},
+author = {Grishina, Anastasiia and Hort, Max and Moonen, Leon},
+title = {The EarlyBIRD Catches the Bug: On Exploiting Early Layers of Encoder Models for More Efficient Code Classification},
+year = {2023},
+isbn = {9798400703270},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3611643.3616304},
+doi = {10.1145/3611643.3616304},
+abstract = {The use of modern Natural Language Processing (NLP) techniques has shown to be beneficial for software engineering tasks, such as vulnerability detection and type inference. However, training deep NLP models requires significant computational resources. This paper explores techniques that aim at achieving the best usage of resources and available information in these models.    We propose a generic approach, EarlyBIRD, to build composite representations of code from the early layers of a pre-trained transformer model. We empirically investigate the viability of this approach on the CodeBERT model by comparing the performance of 12 strategies for creating composite representations with the standard practice of only using the last encoder layer.    Our evaluation on four datasets shows that several early layer combinations yield better performance on defect detection, and some combinations improve multi-class classification. More specifically, we obtain a +2 average improvement of detection accuracy on Devign with only 3 out of 12 layers of CodeBERT and a 3.3x speed-up of fine-tuning. These findings show that early layers can be used to obtain better results using the same resources, as well as to reduce resource usage during fine-tuning and inference.},
+booktitle = {Proceedings of the 31st ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering},
+pages = {895–907},
+numpages = {13},
+keywords = {AI4Code, AI4SE, ML4SE, code classification, model optimization, sustainability, transformer, vulnerability detection},
+location = {San Francisco, CA, USA},
+series = {ESEC/FSE 2023}
+}
+
+
+@INPROCEEDINGS{10304803,
+  abbr={ESEM},
+  pdf={hort2023exploratory.pdf},
+  author={Hort, Max and Grishina, Anastasiia and Moonen, Leon},
+  booktitle={2023 ACM/IEEE International Symposium on Empirical Software Engineering and Measurement (ESEM)}, 
+  title={An Exploratory Literature Study on Sharing and Energy Use of Language Models for Source Code}, 
+  year={2023},
+  volume={},
+  number={},
+  pages={1-12},
+  keywords={Training;Energy consumption;Analytical models;Source coding;Hardware;Data models;Task analysis;sustainability;reuse;replication;energy;DL4SE},
+  doi={10.1109/ESEM56168.2023.10304803}}
+
+
+@inproceedings{10.1145/3583133.3595847,
+abbr={GECCO},
+author = {Hort, Max and Moussa, Rebecca and Sarro, Federica},
+title = {Multi-objective Search for Gender-fair and Semantically Correct Word Embeddings (HOP GECCO'23)},
+year = {2023},
+isbn = {9798400701207},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3583133.3595847},
+doi = {10.1145/3583133.3595847},
+abstract = {Mitigating algorithmic bias during the development life cycle of AI-enabled software is crucial given that any bias in these algorithms is inherited by the software systems using them. At the Hot-off-the-Press GECCO track, we aim at disseminating our article Multi-objective search for gender-fair and semantically correct word embeddings. Applied Soft Computing, 2023 [5]. In this work, we exploit multi-objective search to strike an optimal balance between reducing gender bias and improving semantic correctness of word embedding models, which are at the core of many AI-enabled systems. Our results show that, while single-objective search approaches are able to reduce the gender bias of word embeddings, they also reduce their semantic correctness. On the other hand, multi-objective approaches are successful in improving both goals, in contrast to existing work which solely focuses on reducing gender bias. Our results show that multi-objective evolutionary approaches can be successfully exploited to address bias in AI-enable software systems, and we encourage the research community to further explore opportunities in this direction.},
+booktitle = {Proceedings of the Companion Conference on Genetic and Evolutionary Computation},
+pages = {23–24},
+numpages = {2},
+keywords = {debiasing, fairness, optimization, word embedding},
+location = {Lisbon, Portugal},
+series = {GECCO '23 Companion}
+}
+
+@article{HORT2023109916,
+abbr={ASC},
+pdf={hort2023multi.pdf},
+selected={true},
+title = {Multi-objective search for gender-fair and semantically correct word embeddings},
+journal = {Applied Soft Computing},
+volume = {133},
+pages = {109916},
+year = {2023},
+issn = {1568-4946},
+doi = {https://doi.org/10.1016/j.asoc.2022.109916},
+url = {https://www.sciencedirect.com/science/article/pii/S1568494622009656},
+author = {Max Hort and Rebecca Moussa and Federica Sarro},
+keywords = {Software fairness, Search-based software engineering, Gender bias, Word embeddings},
+abstract = {Fairness is a crucial non-functional requirement of modern software systems that rely on the use of Artificial Intelligence (AI) to make decisions regarding our daily lives in application domains such as justice, healthcare and education. In fact, these algorithms can exhibit unwanted discriminatory behaviours that create unfair outcomes when the software is used, such as giving privilege to one group of users over another (e.g., males vs. females). Mitigating algorithmic bias during the development life cycle of AI-enabled software is crucial given that any bias in these algorithms is inherited by the software systems using them. However, previous work has shown that mitigating bias can impact the performance of such systems. Therefore, we propose herein a novel use of soft computing for improving AI-enabled software fairness. Specifically, we exploit multi-objective search, as opposed to previous work optimising fairness only, to strike an optimal balance between reducing gender bias and improving semantic correctness of word embedding models, which are at the core of many AI-enabled systems. To assess the effectiveness of our proposal, we carry out a thorough empirical study based on the most recent best practice for the evaluation of search-based approaches and AI-enabled software. We explore seven different search-based approaches, and benchmark them against both baseline and state-of-the-art approaches applied to a popular and widely used word embedding model, namely Word2Vec. Our results show that multi-objective search outperforms single-objective search, and generates word embeddings that are strictly better than the original ones in both objectives, bias and semantic correctness, for all investigated cases. Additionally, our approach generates word embeddings of higher semantic correctness than those generated by using state-of-the-art techniques in all cases, while also achieving a higher degree of fairness in 67% of the cases. These findings show the feasibility and effectiveness of multi-objective search as a tool for engineers to incorporate fair and accurate word embedding models in their AI-enabled systems.}
+}
+
+
+@inproceedings{10.1145/3520304.3534037,
+abbr={GECCO},
+pdf={ZhongGECCOGI22.pdf},
+author = {Zhong, James and Hort, Max and Sarro, Federica},
+title = {Py2Cy: a genetic improvement tool to speed up python},
+year = {2022},
+isbn = {9781450392686},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3520304.3534037},
+doi = {10.1145/3520304.3534037},
+abstract = {Due to its ease of use and wide range of custom libraries, Python has quickly gained popularity and is used by a wide range of developers all over the world. While Python allows for fast writing of source code, the resulting programs are slow to execute when compared to programs written in other programming languages like C. One of the reasons for its slow execution time is the dynamic typing of variables. Cython is an extension to Python, which can achieve execution speed-ups by compiler optimization. One possibility for improvements is the use of static typing, which can be added to Python scripts by developers. To alleviate the need for manual effort, we create Py2Cy, a Genetic Improvement tool for automatically converting Python scripts to statically typed Cython scripts. To show the feasibility of improving runtime with Py2Cy, we optimize a Python script for generating Fibonacci numbers. The results show that Py2Cy is able to speed up the execution time by up to a factor of 18.},
+booktitle = {Proceedings of the Genetic and Evolutionary Computation Conference Companion},
+pages = {1950–1955},
+numpages = {6},
+keywords = {execution time, genetic improvement, performance, python},
+location = {Boston, Massachusetts},
+series = {GECCO '22}
+}
+
+
+@inproceedings{sesari-etal-2022-empirical,
+    abbr={GeBNLP},
+    pdf={SesariGEBNLP22.pdf},
+    title = "An Empirical Study on the Fairness of Pre-trained Word Embeddings",
+    author = "Sesari, Emeralda  and
+      Hort, Max  and
+      Sarro, Federica",
+    editor = "Hardmeier, Christian  and
+      Basta, Christine  and
+      Costa-juss{\`a}, Marta R.  and
+      Stanovsky, Gabriel  and
+      Gonen, Hila",
+    booktitle = "Proceedings of the 4th Workshop on Gender Bias in Natural Language Processing (GeBNLP)",
+    month = jul,
+    year = "2022",
+    address = "Seattle, Washington",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2022.gebnlp-1.15/",
+    doi = "10.18653/v1/2022.gebnlp-1.15",
+    pages = "129--144",
+    abstract = "Pre-trained word embedding models are easily distributed and applied, as they alleviate users from the effort to train models themselves. With widely distributed models, it is important to ensure that they do not exhibit undesired behaviour, such as biases against population groups. For this purpose, we carry out an empirical study on evaluating the bias of 15 publicly available, pre-trained word embeddings model based on three training algorithms (GloVe, word2vec, and fastText) with regard to four bias metrics (WEAT, SEMBIAS,DIRECT BIAS, and ECT). The choice of word embedding models and bias metrics is motivated by a literature survey over 37 publications which quantified bias on pre-trained word embeddings. Our results indicate that fastText is the least biased model (in 8 out of 12 cases) and small vector lengths lead to a higher bias."
+}
+
+@inproceedings{10.1145/3524491.3527308,
+abbr = {FairWare},
+pdf={hort2022fairware.pdf},
+author = {Hort, Max and Sarro, Federica},
+title = {Privileged and unprivileged groups: an empirical study on the impact of the age attribute on fairness},
+year = {2022},
+isbn = {9781450392921},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3524491.3527308},
+doi = {10.1145/3524491.3527308},
+abstract = {Recent advances in software fairness investigate bias in the treatment of different population groups, which are devised based on attributes such as gender, race and age. Groups are divided into privileged groups (favourable treatment) and unprivileged groups (unfavourable treatment). To truthfully represent the real world and to measure the degree of bias according to age (young vs. old), one needs to pick a threshold to separate those groups.In this study we investigate two popular datasets (i.e., German and Bank) and the bias observed when using every possible age threshold in order to divide the population into "young" and "old" groups, in combination with three different Machine Learning models (i.e., Logistic Regression, Decision Tree, Support Vector Machine). Our results show that age thresholds do not only impact the intensity of bias in these datasets, but also the direction (i.e., which population group receives a favourable outcome). For the two investigated datasets, we present a selection of suitable age thresholds. We also found strong and very strong correlations between the dataset bias and the respective bias of trained classification models, in 83\% of the cases studied.},
+booktitle = {Proceedings of the 2nd International Workshop on Equitable Data and Technology},
+pages = {17–24},
+numpages = {8},
+keywords = {software fairness, binary classification, bias},
+location = {Pittsburgh, Pennsylvania},
+series = {FairWare '22}
+}
+
+
+@INPROCEEDINGS{9678568,
+abbr = {ASE},
+pdf={hort2021ase.pdf},
+  author={Hort, Max and Sarro, Federica},
+  booktitle={2021 36th IEEE/ACM International Conference on Automated Software Engineering (ASE)}, 
+  title={Did You Do Your Homework? Raising Awareness on Software Fairness and Discrimination}, 
+  year={2021},
+  volume={},
+  number={},
+  pages={1322-1326},
+  keywords={Sociology;Decision making;Machine learning;Software;Statistics;Software engineering;software fairness;discrimination;classification},
+  doi={10.1109/ASE51524.2021.9678568}}
+
+
+
+@inproceedings{10.1145/3468264.3468565,
+abbr = {FSE},
+pdf={hort2021fairea.pdf},
+selected={true},
+author = {Hort, Max and Zhang, Jie M. and Sarro, Federica and Harman, Mark},
+title = {Fairea: a model behaviour mutation approach to benchmarking bias mitigation methods},
+year = {2021},
+isbn = {9781450385626},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3468264.3468565},
+doi = {10.1145/3468264.3468565},
+abstract = {The increasingly wide uptake of Machine Learning (ML) has raised the significance of the problem of tackling bias (i.e., unfairness), making it a primary software engineering concern. In this paper, we introduce Fairea, a model behaviour mutation approach to benchmarking ML bias mitigation methods. We also report on a large-scale empirical study to test the effectiveness of 12 widely-studied bias mitigation methods. Our results reveal that, surprisingly, bias mitigation methods have a poor effectiveness in 49\% of the cases. In particular, 15\% of the mitigation cases have worse fairness-accuracy trade-offs than the baseline established by Fairea; 34\% of the cases have a decrease in accuracy and an increase in bias.  Fairea has been made publicly available for software engineers and researchers to evaluate their bias mitigation methods.},
+booktitle = {Proceedings of the 29th ACM Joint Meeting on European Software Engineering Conference and Symposium on the Foundations of Software Engineering},
+pages = {994–1006},
+numpages = {13},
+keywords = {Software fairness, bias mitigation, model mutation},
+location = {Athens, Greece},
+series = {ESEC/FSE 2021}
+}
+
+@inproceedings{10.1145/3449726.3459479,
+abbr = {GECCO},
+pdf={hort2021nsga.pdf},
+author = {Hort, Max and Sarro, Federica},
+title = {The effect of offspring population size on NSGA-II: a preliminary study},
+year = {2021},
+isbn = {9781450383516},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3449726.3459479},
+doi = {10.1145/3449726.3459479},
+abstract = {Non-Dominated Sorting Genetic Algorithm (NSGA-II) is one of the most popular Multi-Objective Evolutionary Algorithms (MOEA) and has been applied to a large range of problems.Previous studies have shown that parameter tuning can improve NSGA-II performance. However, the tuning of the offspring population size, which guides the exploration-exploitation trade-off in NSGA-II, has been overlooked so far. Previous work has generally used the population size as the default offspring population size for NSGA-II.We therefore investigate the impact of offspring population size on the performance of NSGA-II. We carry out an empirical study by comparing the effectiveness of three configurations vs. the default NSGA-II configuration on six optimization problems based on four Pareto front quality indicators and statistical tests.Our findings show that the performance of NSGA-II can be improved by reducing the offspring population size and in turn increasing the number of generations. This leads to similar or statistically significant better results than those obtained by using the default NSGA-II configuration in 92\% of the experiments performed.},
+booktitle = {Proceedings of the Genetic and Evolutionary Computation Conference Companion},
+pages = {179–180},
+numpages = {2},
+keywords = {NSGA-II, genetic algorithms, multi-objective optimization, offspring population},
+location = {Lille, France},
+series = {GECCO '21}
+}
+
+@ARTICLE{9397392,
+  abbr = {TSE},
+  pdf={hort2021tse.pdf},
+  author={Hort, Max and Kechagia, Maria and Sarro, Federica and Harman, Mark},
+  journal={IEEE Transactions on Software Engineering}, 
+  title={A Survey of Performance Optimization for Mobile Applications}, 
+  year={2022},
+  volume={48},
+  number={8},
+  pages={2879-2904},
+  keywords={Mobile applications;Optimization;Smart phones;Performance evaluation;Energy consumption;Software;Hardware;Mobile applications;Android;non-functional performance optimization;software optimization;literature survey},
+  doi={10.1109/TSE.2021.3071193}}
+
+
+@inproceedings{10.1145/3377929.3390039,
+abbr = {GECCO},
+pdf={hort2020optimising.pdf},
+author = {Hort, Max and Sarro, Federica},
+title = {Optimising word embeddings with search-based approaches},
+year = {2020},
+isbn = {9781450371278},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3377929.3390039},
+doi = {10.1145/3377929.3390039},
+abstract = {Word embeddings have rapidly become an all-purpose tool for a diverse range of real world applications. This development is nurtured by the availability and applicability of pre-trained models. However, their usage faces the risk of being inaccurate when used in domains different from the ones they were trained on.In this paper, we formulate the adaptation of word embeddings as a vector multiplication problem, which enables us to apply search methods to explore potential word embedding adaptations with respect to their semantic correctness. To assess the effectiveness of our proposal, we empirically investigate the use of both local and global search-based approaches (i.e. Hill Climbing, Tabu Search and Genetic Algorithm) in order to maximise the semantic correctness of a popular Word2Vec pre-trained model (namely GoogleNews) when applied to another domain (i.e. the MEN dataset).The results of our study reveal that Hill Climbing, Tabu Search and Genetic Algorithm perform equally well and all outperform the original GoogleNews model as well as a baseline model based on Random Search. This shows that optimising word embeddings with search-based approaches is possible and effective.},
+booktitle = {Proceedings of the 2020 Genetic and Evolutionary Computation Conference Companion},
+pages = {269–270},
+numpages = {2},
+keywords = {word embedding, semantic similarity, optimization},
+location = {Canc\'{u}n, Mexico},
+series = {GECCO '20}
+}
