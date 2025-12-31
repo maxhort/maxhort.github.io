@@ -32,7 +32,7 @@ nav_order: 6
 
 
 ## Other Tracks
-- 2026: [Saner](https://conf.researchr.org/home/saner-2026) (Short Papers and Posters), [EASE](https://conf.researchr.org/home/ease-2026) (Industry Track), [ICPC](https://conf.researchr.org/home/icpc-2026) (RENE)
+- 2026: [Saner](https://conf.researchr.org/home/saner-2026) (Short Papers and Posters), [EASE](https://conf.researchr.org/home/ease-2026) (Industry Track), [ICPC](https://conf.researchr.org/home/icpc-2026) (RENE), [FSE](https://conf.researchr.org/track/fse-2026/fse-2026-demonstrations) (Tool Demonstrations)
 - 2025: [ISSTA](https://conf.researchr.org/home/issta-2025) (Tool Demonstrations Track)
 - 2024: [ISSTA](https://2024.issta.org/) (Tool Demonstrations Track)
 - 2023: [MSR](https://conf.researchr.org/home/msr-2023) (Junior PC, Distinguished Reviewer)
