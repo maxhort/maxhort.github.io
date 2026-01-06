@@ -35,6 +35,9 @@ ninja.data = [{
           section: "News",},{id: "news-page-facing-up-our-paper-assessing-the-latent-automated-program-repair-capabilities-of-large-language-models-using-round-trip-translation-has-been-accpeted-to-the-journal-first-track-at-icse-26",
           title: ':page_facing_up: Our paper “Assessing the Latent Automated Program Repair Capabilities of Large Language...',
           description: "",
+          section: "News",},{id: "news-computer-i-joined-the-pc-of-the-fse-tool-demonstrations-track",
+          title: ':computer: I joined the PC of the FSE Tool Demonstrations Track',
+          description: "",
           section: "News",},{
         id: 'social-github',
         title: 'GitHub',
