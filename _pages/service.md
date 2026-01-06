@@ -15,6 +15,7 @@ nav_order: 6
 - Discover Internet of Things
 - ACM Journal on Responsible Computing
 - ACM Computing Surveys
+- ACM AI Letters
 - Information and Software Technology
 - IEEE Software
 - Empirical Software Engineering
