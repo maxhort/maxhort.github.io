@@ -38,6 +38,9 @@ ninja.data = [{
           section: "News",},{id: "news-computer-i-joined-the-pc-of-the-fse-tool-demonstrations-track",
           title: ':computer: I joined the PC of the FSE Tool Demonstrations Track',
           description: "",
+          section: "News",},{id: "news-computer-i-joined-the-pc-of-equisa",
+          title: ':computer: I joined the PC of EQUISA',
+          description: "",
           section: "News",},{
         id: 'social-github',
         title: 'GitHub',
