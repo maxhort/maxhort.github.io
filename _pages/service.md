@@ -40,7 +40,7 @@ nav_order: 6
 - 2022: [MSR](https://conf.researchr.org/home/msr-2022) (Shadow PC)
 
 ## Workshops
-- 2026: [FinanSE](https://conf.researchr.org/home/icse-2026/finanse-2026), [GREENS](https://greensworkshop.github.io/), [GI@ICSE](https://geneticimprovementofsoftware.com/events/icse2026), [SSBSE](https://conf.researchr.org/home/ssbse-2026), [Fairness](https://fairnessworkshop.github.io/), [EQUISA](https://conf.researchr.org/home/ease-2026/equisa-2026)
+- 2026: [FinanSE](https://conf.researchr.org/home/icse-2026/finanse-2026), [GREENS](https://greensworkshop.github.io/), [GI@ICSE](https://geneticimprovementofsoftware.com/events/icse2026), [SSBSE](https://conf.researchr.org/home/ssbse-2026), [Fairness](https://fairnessworkshop.github.io/), [EQUISA](https://conf.researchr.org/home/ease-2026/equisa-2026), [Mutation](https://conf.researchr.org/home/icst-2026/mutation-2026)
 - 2025: [FinanSE](https://conf.researchr.org/home/icse-2025/finanse-2025), [GREENS](https://greensworkshop.github.io/previous_editions/GREENS2025/), [Fairness](https://fairnessworkshop.github.io/), [GI@ICSE](https://geneticimprovementofsoftware.com/events/icse2025), [SSBSE](https://conf.researchr.org/home/ssbse-2025)
 - 2024: [FinanSE](https://finanse24.github.io/), [GI@ICSE](https://geneticimprovementofsoftware.com/events/icse2024)
 
