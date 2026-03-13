@@ -47,7 +47,7 @@ ninja.data = [{
           section: "News",},{id: "news-computer-i-joined-the-pc-of-the-mutation-workshop",
           title: ':computer: I joined the PC of the Mutation Workshop',
           description: "",
-          section: "News",},{id: "news-page-facing-up-our-paper-wisdom-and-delusion-of-llm-ensembles-for-code-generation-and-repair-has-been-accpeted-to-ease-26",
+          section: "News",},{id: "news-page-facing-up-our-paper-wisdom-and-delusion-of-llm-ensembles-for-code-generation-and-repair-has-been-accpeted-by-ease-26",
           title: ':page_facing_up: Our paper “Wisdom and Delusion of LLM Ensembles for Code Generation and...',
           description: "",
           section: "News",},{
