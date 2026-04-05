@@ -50,6 +50,9 @@ ninja.data = [{
           section: "News",},{id: "news-page-facing-up-our-paper-wisdom-and-delusion-of-llm-ensembles-for-code-generation-and-repair-has-been-accpeted-by-ease-26",
           title: ':page_facing_up: Our paper “Wisdom and Delusion of LLM Ensembles for Code Generation and...',
           description: "",
+          section: "News",},{id: "news-medal-sports-i-have-been-recognized-as-a-distinguished-reviewer-for-icse-26",
+          title: ':medal_sports: I have been recognized as a Distinguished Reviewer for ICSE’26',
+          description: "",
           section: "News",},{
         id: 'social-github',
         title: 'GitHub',
