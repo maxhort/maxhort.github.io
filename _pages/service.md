@@ -26,7 +26,7 @@ nav_order: 6
 # Program Comittee
 
 ## Research Track
-- 2026: [ICSE](https://conf.researchr.org/home/icse-2026)
+- 2026: [ICSE](https://conf.researchr.org/home/icse-2026) (Distinguished Reviewer)
 - 2025: [ASE](https://conf.researchr.org/home/ase-2025), [MSR](https://2025.msrconf.org/) (Distinguished Reviewer), [InternetWare](https://conf.researchr.org/home/internetware-2025)
 - 2024: [ASE](https://conf.researchr.org/home/ase-2024), [InternetWare](https://conf.researchr.org/home/internetware-2024) (Distinguished Reviewer), [MSR](https://2024.msrconf.org/)
 
