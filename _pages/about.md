@@ -2,15 +2,15 @@
 layout: about
 title: about
 permalink: /
-subtitle: MSCA Research Fellow at <a href='https://www.simula.no/'>Simula Research Laboratory</a>
+subtitle: Senior Research Scientist at <a href='https://www.nr.no/'>Norsk Regnesentral</a>
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: true # crops the image to make it circular
   more_info: >
-    <p>Simula Research Laboratory</p>
+    <p>Norsk Regnesentral</p>
     <p>Oslo, Norway</p>
-    <p>maxh[at]simula.no</p>
+    <p>mhort[at]nr.no</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -22,6 +22,6 @@ announcements:
 
 ---
 
-I am an MSCA Research Fellow at Simula Research Laboratory in the Data-Driven Software Engineering Department, supervised by Professor Leon Moonen.
+I am a Senior Research Scientist at Norsk Regnesentral.
 
-My research lies at the intersection of machine learning and software engineering, with a focus on non-functional optimization, fairness, and sustainability. In particular, I study how large language models trained on source code can be leveraged to detect and repair software vulnerabilities. As part of my Marie Skłodowska-Curie Actions fellowship, I also investigate methods to reduce the data and energy requirements of training large language models for code-related tasks.
+My research lies at the intersection of machine learning and software engineering, with a focus on non-functional optimization, fairness, and sustainability. In particular, I study how large language models trained on source code can be leveraged to detect and repair software vulnerabilities. 
