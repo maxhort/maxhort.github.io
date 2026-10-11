@@ -22,6 +22,7 @@ nav_order: 6
 - Transactions on Knowledge Discovery from Data 
 - IEEE Computational Intelligence Magazine 
 - Journal of Artificial Intelligence Research
+- ACL Rolling Review
 
 # Program Comittee
 
