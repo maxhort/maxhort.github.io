@@ -21,7 +21,4 @@ announcements:
   limit: 10 # leave blank to include all the news in the `_news` folder
 
 ---
-
-I am a Senior Research Scientist at Norsk Regnesentral.
-
 My research lies at the intersection of machine learning and software engineering, with a focus on non-functional optimization, fairness, and sustainability. In particular, I study how large language models trained on source code can be leveraged to detect and repair software vulnerabilities. 
